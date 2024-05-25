@@ -8,14 +8,14 @@ var userData = [
     },
     {
       name: "Bilal",
-      fatherName: "abc",
+      fatherName: "ahmed",
       age: 34,
       rollNo: 4565,
       attendance: 'absent',
     },
     {
       name: "Junaid",
-      fatherName: "xyz",
+      fatherName: "ahmed",
       age: 87,
       rollNo: 768,
       attendance: 'absent',
