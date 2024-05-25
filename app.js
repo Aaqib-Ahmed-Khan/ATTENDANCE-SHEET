@@ -16,7 +16,7 @@ var userData = [
     {
       name: "Junaid",
       fatherName: "ahmed",
-      age: 87,
+      age: 27,
       rollNo: 768,
       attendance: 'absent',
     },
