@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attendance Portal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="attendance-summary">
+        <div class="attendance-box" id="totalAttendance">Total: 0</div>
+        <div class="attendance-box" id="presentCount">Present: 0</div>
+        <div class="attendance-box" id="absentCount">Absent: 0</div>
+    </div>
+    <div class="table-container">
+        <table id="userTable" class="user-table">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>Name</th>
+                    <th>Father's Name</th>
+                    <th>Roll No</th>
+                    <th>Age</th>
+                    <th>Attendance</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- User data will be injected here by JavaScript -->
+            </tbody>
+        </table>
+    </div>
+    <div class="input-container">
+        <input type="text" id="name" placeholder="Name">
+        <input type="text" id="fatherName" placeholder="Father's Name">
+        <input type="number" id="rollno" placeholder="Roll No">
+        <input type="number" id="age" placeholder="Age">
+        <button onclick="addUser()">Add User</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
